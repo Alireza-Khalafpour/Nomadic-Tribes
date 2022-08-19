@@ -1,0 +1,321 @@
+.total-nav * {
+    z-index: 101 !important;
+    font-weight: 600 !important;
+    top: 0px !important;
+}
+
+.nav-logo {
+    a {
+        font-family: welcom;
+        font-size: 1.5rem !important;
+    }
+}
+
+.hover-effect {
+    color: white !important;
+
+    i {
+        color: #E8C92A !important;
+    }
+}
+
+.hover-effect:hover {
+    border: 1px solid rgba(255, 255, 255, 0.696);
+    cursor: pointer;
+}
+
+.enter-bar {
+    margin-left: 26rem;
+}
+
+.hover-login {
+    a {
+        color: white;
+    }
+
+    &:hover {
+        background: -webkit-linear-gradient(0deg, #ec3f59, #fae442);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+}
+
+#border-spilit {
+    border-right: 2px solid white;
+}
+
+.burger-btn {
+    background: -webkit-linear-gradient(0deg, #ec3f59, #fae442);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: x-large;
+    display: none;
+    margin-right: 5vw !important;
+}
+
+#video {
+    // object-fit: cover !important;
+    width: auto !important;
+    height: auto !important;
+
+}
+
+
+.mute-btn {
+    z-index: 9;
+    border: none;
+    height: 3.7rem;
+    width: 3.7rem;
+    background: -webkit-linear-gradient(90deg, #f1546ca6, #e4b02e8c);
+    bottom: 8vh !important;
+    left: 50vw !important;
+
+
+    i {
+        color: #ffffff;
+        font-size: 1.5rem;
+    }
+
+}
+
+.mute-btn:hover {
+    background: -webkit-linear-gradient(90deg, #f1546c, #e4b02e);
+}
+
+.show {
+    display: block !important;
+    z-index: 101 !important;
+    margin-top: 2rem !important;
+    transition: all 1s ease-in-out !important;
+
+    li {
+        margin-bottom: 1.4rem !important;
+        border-bottom: 1px solid #63451A !important;
+        width: 100% !important;
+
+        a {
+            width: 100% !important;
+            &:hover {
+                border: none !important;
+                font-weight: 800 !important;
+            }
+        }
+    }
+}
+
+// .arrow-down-btn{
+//     z-index: 9;
+//     border: none;
+//     height: 3.7rem;
+//     width: 3.7rem;
+//     background: -webkit-linear-gradient(90deg, #f1546ca6, #e4b02e8c);
+//     bottom: 8vh !important;
+//     left: 45vw !important;
+
+
+//     i {
+//         color: #ffffff;
+//         font-size: 1.5rem;
+//     }
+// }
+
+// .arrow-down-btn:hover {
+//     background: -webkit-linear-gradient(90deg, #f1546c, #e4b02e);
+// }
+
+
+// ------------------------------------life changing---------------------------------------------
+
+.total-changing {
+    border: 1px solid #63451aa9;
+
+}
+
+.title-life-changing {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+
+.link-icon {
+    color: #63451A;
+}
+
+.link-para {
+    color: #63451A;
+    width: 100% !important;
+}
+
+.card-body>ul>ul {
+    width: 30% !important;
+}
+
+.card-body>ul>li>a:hover {
+    font-weight: 700 !important;
+}
+
+#life-list {
+    flex-wrap: wrap !important;
+}
+
+
+
+// -------------------------------------featured tribes-----------------------------------------------------
+
+
+
+#featured-middle {
+    height: 40rem !important;
+}
+
+#featured-img1 {
+    left: 17% !important;
+    top: 4% !important;
+    height: 23rem !important;
+    object-fit: cover;
+}
+
+#featured-card {
+    right: 20%;
+    top: 16% ;
+    height: 26.5rem ;
+    object-fit: cover;
+    background-color: #F5EDC6 !important;
+}
+
+#middle-card-links {
+    color: #63451A;
+}
+
+#featured-img2 {
+    bottom: 6.4% !important;
+    left: 28.8% !important;
+    height: 12rem !important;
+    object-fit: cover;
+}
+
+
+
+// ---------------------------Discover-------------------------------------
+
+
+
+.title-discover {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+
+.last-discover {
+    justify-content: center !important;
+}
+
+
+.last-discover-p {
+    overflow: hidden !important;
+    line-clamp: 3 !important;
+    text-overflow: ellipsis !important;
+}
+
+// -----------------------------------Happening Now--------------------------------------
+
+
+.card-comment {
+    height: 25rem !important;
+
+    h6 {
+        color: #ef45a3 !important;
+    }
+}
+
+#comment-img {
+    background-image: url(../image/comment\ pic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+}
+
+// -----------------------------------featured nomadi---------------------------------------
+
+
+.paragraph-comment {
+    justify-content: flex-end !important;
+}
+
+
+#comment-img1 {
+    background-image: url(../image/khg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overflow {
+    overflow: hidden !important;
+}
+
+// -----------------------------------------wanderlust----------------------------------------------
+
+.bg-cream {
+    background-color: #F6EFCB;
+}
+
+#apple-icon {
+    color: #ffffff !important;
+    font-size: 1.5rem;
+}
+
+.app-btn {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 10rem;
+    height: 3rem;
+    background-color: black;
+    align-items: center;
+
+    a {
+        color: white;
+        margin: 1rem;
+        width: 100%;
+    }
+}
+
+#nav-top0 {
+    background-color: #F5EDC6 !important;
+}
+
+
+// -------------------------------------------Footer-----------------------------------------------
+
+.footer-column1 {
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+
+    li {
+        padding-top: 0.6rem !important;
+        padding-left: 0px !important;
+    }
+
+    li>a {
+        font-weight: 600 !important;
+        color: #ffffff !important;
+
+        &:hover {
+            color: #ec3f59 !important;
+        }
+    }
+}
+
+.justify-around {
+    justify-content: space-around !important;
+}

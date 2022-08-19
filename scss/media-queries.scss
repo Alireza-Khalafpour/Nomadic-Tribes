@@ -1,0 +1,162 @@
+@media screen and(max-width:1440px) {
+
+    // ------------------------------------header----------------------------------
+
+    .enter-bar {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+
+}
+
+@media screen and(max-width:1025px) {
+
+    // ------------------------------------header----------------------------------
+
+    .burger-btn {
+        display: block !important;
+        margin-right: 0px !important;
+    }
+
+    .total-nav>ul {
+        display: none;
+    }
+
+    body {
+        width: auto !important;
+    }
+
+    .mute-btn {
+        height: 2.4rem;
+        width: 2.4rem;
+
+        i {
+            font-size: medium;
+        }
+    }
+
+    #change-nav {
+        background-color: #F5EDC6 !important;
+    }
+
+    #discover-cards {
+        width: 100% !important;
+    }
+
+}
+
+
+
+@media screen and (max-width:785px) {
+
+
+    // ------------------------------------header----------------------------------
+
+
+    .burger-btn {
+        display: block !important;
+    }
+
+    .total-nav>ul {
+        display: none;
+    }
+
+    body {
+        width: auto !important;
+    }
+
+    .mute-btn {
+        height: 2.4rem;
+        width: 2.4rem;
+
+        i {
+            font-size: medium;
+        }
+    }
+
+    #change-nav {
+        background-color: #F5EDC6 !important;
+    }
+
+    #video {
+        margin-top: 4.5rem !important;
+    }
+
+
+
+    // ---------------------------------featured tribes-----------------------------------------
+
+
+    #featured-img1 {
+        display: none !important;
+    }
+
+    #featured-img2 {
+        display: none !important;
+    }
+
+    #featured-card {
+        width: 100% !important;
+        top: 0% !important;
+        right: 0% !important;
+        height: fit-content !important;
+    }
+
+    .featured-card-img {
+        display: flex !important;
+    }
+
+    .btn-read {
+        width: 100% !important;
+    }
+
+
+    // -------------------------------------Discover------------------------------------------------
+
+
+    .repeated-button-major {
+        width: 60vw !important;
+    }
+
+
+
+    // -------------------------------------Happening Now------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+    // -------------------------------------Wander lust------------------------------------------------
+
+    .total-wander {
+        flex-direction: column !important;
+    }
+
+    .wander-text {
+        width: 100% !important;
+        padding: 2rem !important;
+    }
+
+    .wander-img {
+        width: 100% !important;
+        padding: 2rem !important;
+
+    }
+
+
+
+    // -------------------------------------footer------------------------------------------------
+
+
+    .social-media {
+        margin-top: 1.5rem !important;
+    }
+
+}
